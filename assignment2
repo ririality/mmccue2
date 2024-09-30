@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Name: Marianna McCue | Student Number: 301481506 -->
+ 
+<head>
+    <title>Websites about Protected Areas Issues</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #69926e;
+            justify-content: center;     
+            align-items: center;  
+            
+        }
+        .banner {
+            position: relative;
+            color: rgb(5, 92, 53); 
+            text-align: center; 
+            overflow: hidden; 
+        }
+        .banner img {
+            width: 100%; 
+            height: 300px; 
+            display: block; 
+        }
+        .banner-content {
+            position: absolute; 
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+            
+        }
+        .content {
+            text-align: left;
+            padding: 20px;   
+            margin: 20px       
+        }
+        .thumbnail {
+            width: 50px;  
+            height: 50px; 
+            object-fit: cover; 
+        }
+        h3 {
+            font-size: 4.5em; 
+        }
+        h2 {
+            color: #00361a;
+        }
+        hr {
+            border: none;             
+            height: 3px;              
+            background-color: #333;   
+            margin: 20px 0;           
+        }
+       
+        .spacer {
+            height: 50px; 
+        }
+        footer{
+            margin-top: 20px;
+            font-size: 12px;
+            text-align: center;
+        }
+        a {
+            color: #a31a1a; 
+            text-decoration: none; 
+        }
+        a:visited {
+            color: #053a00; 
+        }
+    </style>
+    <link rel="icon" type="image/x-icon" href="M favicon.webp">
+</head>
+<body>
+
+    <div class="banner">
+        <img src="bw mountains.avif" alt="Mountains"> 
+        <div class="banner-content">
+            <h3>Websites about Protected Areas Issues</h3>
+    
+        </div>
+    </div>
+
+
+    <section class="content">
+        <p>
+            Protected areas are essential for conserving biodiversity, preserving ecosystems, and protecting endangered species. 
+            They are vital in addressing climate change, conserving water resources, and promoting sustainable. 
+            Humans are altering our earth's landscapes. 
+            Currently, a third of the Earth's land is either degraded or in the process of degradation, negatively affecting biodiversity and threatening crucial ecosystem services like carbon storage. 
+            Protected areas provide a potential solution to these issues. 
+            The websites listed on this page offer information on global issues and strategies related to protected areas.
+        </p>
+
+        <h2>Click links to visit websites covering related issues & strategies</h2>
+
+        <ul>
+            <li>
+                <a href="https://www.iucn.org/theme/protected-areas/about" target="_blank"> <img src="iucnlogo.svg" alt="IUCN" class="thumbnail"> IUCN: About Protected Areas</a></li>
+            <li><a href="https://www.protectedplanet.net/en/thematic-areas/wdpa" target="_blank"><img src="protectedplanet.jpg" alt="Protected Planet" class="thumbnail">Protected Planet: Protected Areas</a></li>
+            <li><a href="https://resources.unep-wcmc.org/products/1919c32890074ce5a589a1a99b48994b" target="_blank"><img src="unep.png" alt="UNEP" class="thumbnail">UNEP: The World Database on Protected Areas</a></li>
+            <li><a href="https://ontarionature.org/programs/nature-reserves/?gad_source=1&gclid=Cj0KCQjwmOm3BhC8ARIsAOSbapUVLQwHWRQ8YoQWY-oXnLr0iAGKuehUxp1D6B9wtEZ4gAXwWA_Ft1kaAseDEALw_wcB" target="_blank">
+                <img src="ontario nature.jpeg" alt="Ontario Nature" class="thumbnail">Ontario Nature: Nature Reserves</a></li>
+            <li><a href="https://www.eea.europa.eu/en/datahub/datahubitem-view/a95b6d2d-2d41-4c27-9d1d-d15bbf29d27e" target="_blank">
+                <img src="europeanenv.png" alt="European Environment Agency" class="thumbnail">European Environment Agency: World Protected Areas</a></li>
+            <li><a href="https://coral.org/en/blog/what-is-a-marine-protected-area-mpa/?utm_term=&utm_campaign=CORAL:+Blog&utm_source=adwords&utm_medium=ppc&hsa_acc=7804351857&hsa_cam=16499355796&hsa_grp=135383991778&hsa_ad=586346445547&hsa_src=g&hsa_tgt=dsa-1641438185901&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjwmOm3BhC8ARIsAOSbapXBQRzQyLCVxqzMpif6MdQOqxgEUx7xgFa0VFhiO5girKbNLyn-72IaAp-aEALw_wcB" target="_blank">
+                <img src="coralreef.png" alt="Coral Reef Alliance" class="thumbnail">Coral Reef Alliance: What is a Marine Protected Area (MPA)?</a></li>
+        </ul>
+    </section>
+
+    <div class="spacer"></div> 
+ <hr>   
+
+
+    <footer>
+        <p>&copy; 2024 Marianna McCue - Student Number: 301481506 - Assignment 2: Protected Areas</p>
+        <p>Image and information credits: IUCN, Protected Planet, UNEP, Ontario Nature, European Environment Agency, Coral Reef Alliance </p>
+    </footer>
+
+</body>
+</html>
